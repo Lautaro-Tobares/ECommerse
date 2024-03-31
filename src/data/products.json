@@ -1,49 +1,49 @@
 [{
     "id":1,
-    "Marca":"Antonio Banderas",
-    "Producto":"Icon Elixir",
-    "Genero":"Homme",
-    "Precio":"30.355",
+    "marca":"Antonio Banderas",
+    "producto":"Icon Elixir",
+    "category":"Homme",
+    "precio":"30.355",
     "imagen":"https://perfugroupar.vtexassets.com/arquivos/ids/187457-300-300?v=638193270376670000&width=300&height=300&aspect=true"},
     
 {
     "id":2,
-    "Marca":"Giorgio Armani",
-    "Producto":"Aqua di geo",
-    "Genero":"Homme",
-    "Precio":"185.900",
+    "marca":"Giorgio Armani",
+    "producto":"Aqua di geo",
+    "category":"Homme",
+    "precio":"185.900",
     "imagen":"https://perfugroupar.vtexassets.com/arquivos/ids/193614-300-300?v=638291711642870000&width=300&height=300&aspect=true"},
 
 {
     "id":3,
-    "Marca":"Jean Paul Gaultier",
-    "Producto":"Scandal",
-    "Genero":"Homme",
-    "Precio":"117.250",
+    "marca":"Jean Paul Gaultier",
+    "producto":"Scandal",
+    "category":"Homme",
+    "precio":"117.250",
     "imagen":"https://perfugroupar.vtexassets.com/arquivos/ids/190998-300-300?v=638252138256370000&width=300&height=300&aspect=true"},
     
 {
     "id":4,
-    "Marca":"",
-    "Producto":"The Icon Fem",
-    "Genero":"Fem",
-    "Precio":"30.355",
+    "marca":"Antonio Banderas",
+    "producto":"The Icon Fem",
+    "category":"Fem",
+    "precio":"30.355",
     "imagen":"https://perfugroupar.vtexassets.com/arquivos/ids/192577-300-300?v=638271998023770000&width=300&height=300&aspect=true"},
 
 {
      "id":5,
-     "Marca":"Giorgio Armani",
-     "Producto":"My Way",
-     "Genero":"Fem",
-     "Precio":"226.900",
+     "marca":"Giorgio Armani",
+     "producto":"My Way",
+     "category":"Fem",
+     "precio":"226.900",
      "imagen":"https://perfugroupar.vtexassets.com/arquivos/ids/179729-300-300?v=638004929475400000&width=300&height=300&aspect=true"},
 
 {
      "id":6,
-     "Marca":"Jean Paul Gaultier",
-     "Producto":"La Belle Parfum",
-     "Genero":"Fem",
-     "Precio":"182.800",
+     "marca":"Jean Paul Gaultier",
+     "producto":"La Belle Parfum",
+     "category":"Fem",
+     "precio":"182.800",
      "imagen":"https://perfugroupar.vtexassets.com/arquivos/ids/161852-300-300?v=637689504922330000&width=300&height=300&aspect=true"}
     
 ]
