@@ -1,49 +1,49 @@
 [{
     "id":1,
-    "marca":"Antonio Banderas",
-    "producto":"Icon Elixir",
+    "title":"Antonio Banderas",
+    "description":"Icon Elixir",
     "category":"Homme",
-    "precio":"30.355",
-    "imagen":"https://perfugroupar.vtexassets.com/arquivos/ids/187457-300-300?v=638193270376670000&width=300&height=300&aspect=true"},
+    "price":"$30.355",
+    "pictureUrl":"https://perfugroupar.vtexassets.com/arquivos/ids/187457-300-300?v=638193270376670000&width=300&height=300&aspect=true"},
     
 {
     "id":2,
-    "marca":"Giorgio Armani",
-    "producto":"Aqua di geo",
+    "title":"Giorgio Armani",
+    "description":"Aqua di geo",
     "category":"Homme",
-    "precio":"185.900",
-    "imagen":"https://perfugroupar.vtexassets.com/arquivos/ids/193614-300-300?v=638291711642870000&width=300&height=300&aspect=true"},
+    "price":"$185.900",
+    "pictureUrl":"https://perfugroupar.vtexassets.com/arquivos/ids/193614-300-300?v=638291711642870000&width=300&height=300&aspect=true"},
 
 {
     "id":3,
-    "marca":"Jean Paul Gaultier",
-    "producto":"Scandal",
+    "title":"Jean Paul Gaultier",
+    "description":"Scandal",
     "category":"Homme",
-    "precio":"117.250",
-    "imagen":"https://perfugroupar.vtexassets.com/arquivos/ids/190998-300-300?v=638252138256370000&width=300&height=300&aspect=true"},
+    "price":"$117.250",
+    "pictureUrl":"https://perfugroupar.vtexassets.com/arquivos/ids/190998-300-300?v=638252138256370000&width=300&height=300&aspect=true"},
     
 {
     "id":4,
-    "marca":"Antonio Banderas",
-    "producto":"The Icon Fem",
+    "title":"Antonio Banderas",
+    "description":"The Icon Fem",
     "category":"Fem",
-    "precio":"30.355",
-    "imagen":"https://perfugroupar.vtexassets.com/arquivos/ids/192577-300-300?v=638271998023770000&width=300&height=300&aspect=true"},
+    "price":"$30.355",
+    "pictureUrl":"https://perfugroupar.vtexassets.com/arquivos/ids/192577-300-300?v=638271998023770000&width=300&height=300&aspect=true"},
 
 {
      "id":5,
-     "marca":"Giorgio Armani",
-     "producto":"My Way",
+     "title":"Giorgio Armani",
+     "description":"My Way",
      "category":"Fem",
-     "precio":"226.900",
-     "imagen":"https://perfugroupar.vtexassets.com/arquivos/ids/179729-300-300?v=638004929475400000&width=300&height=300&aspect=true"},
+     "price":"$226.900",
+     "pictureUrl":"https://perfugroupar.vtexassets.com/arquivos/ids/179729-300-300?v=638004929475400000&width=300&height=300&aspect=true"},
 
 {
      "id":6,
-     "marca":"Jean Paul Gaultier",
-     "producto":"La Belle Parfum",
+     "title":"Jean Paul Gaultier",
+     "description":"La Belle Parfum",
      "category":"Fem",
-     "precio":"182.800",
-     "imagen":"https://perfugroupar.vtexassets.com/arquivos/ids/161852-300-300?v=637689504922330000&width=300&height=300&aspect=true"}
+     "price":"$182.800",
+     "pictureUrl":"https://perfugroupar.vtexassets.com/arquivos/ids/161852-300-300?v=637689504922330000&width=300&height=300&aspect=true"}
     
 ]

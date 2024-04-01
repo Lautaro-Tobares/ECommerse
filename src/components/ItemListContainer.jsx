@@ -2,26 +2,32 @@ import { useEffect, useState } from 'react';
 
 import Container from 'react-bootstrap/Container';
 
+import {ItemList} from './ItemList';
+
 import data from '../data/products.json';
 
 console.log(data);
 
 export const ItemListContainer = (props) => {
 
-    const [Items, setItems]= useState ([]);
+    const [products, setProducts]= useState ([]);
 
     useEffect (()=>{
         const get = new Promise((resolve, reject) => {
-            resolve (data)
+          setTimeout(() => resolve (data), 2000)  
         });
 
+        get.then ((data)=> setProducts(data))
     },[]);
 
-    return 
+    return (
+    
     <Container className='mt-4'> 
     
-    <div>{props.greetings} </div> 
+    <ItemList products = {products}/>
 
-    </Container>;
+    </Container>
+    );
+    
     
 };
