@@ -1,5 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import { Card, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 export const Item = ({product}) => {
@@ -18,7 +19,7 @@ export const Item = ({product}) => {
           <Card.Text className='mt-auto text-center'>
             {product.price}
           </Card.Text>
-          <Button variant="primary">Comprar</Button>
+          <Link to={`/item/${product.id}`}><Button variant="primary" className="mx-auto d-block">Comprar</Button></Link>
         </Card.Body>
       </Card>
     )

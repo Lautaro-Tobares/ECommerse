@@ -12,8 +12,8 @@ export const NavBar = () => {
           <Navbar.Brand href="/">B'Oreal</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/">Main</Nav.Link>
-            <Nav.Link to="/category/Homme" as={NavLink}>Homme</Nav.Link>
-            <Nav.Link to="/category/Fem" as={NavLink}>Fem</Nav.Link>
+            <Nav.Link to="/category/homme" as={NavLink}>Homme</Nav.Link>
+            <Nav.Link to="/category/fem" as={NavLink}>Fem</Nav.Link>
           </Nav>
           <CartWidget />
         </Container>
