@@ -12,7 +12,7 @@ console.log(data);
 
 export const ItemDetailContainer = () => {
 
-    const [product, setProduct]= useState ([null]);
+    const [item, setItem]= useState ([null]);
 
     const {id} = useParams();
 
@@ -24,29 +24,29 @@ export const ItemDetailContainer = () => {
         get.then ((data)=> {
 
             const filteredData = data.find((d) => d.id === Number(id) );
-            setProduct(filteredData);
+            setItem(filteredData);
 
          });
     },[id]);
 
-    if (!product) return null;
+    if (!item) return null;
 
     return (
     
     <Container className='mt-4'> 
     
     <Card className='d-flex'style={{ maxWidth: 250, maxHeight: 500 }}>
-        <Card.Img variant="top" src={product.pictureUrl} />
+        <Card.Img variant="top" src={item.pictureUrl} />
         <Card.Body className="d-flex flex-column justify-content-end">
-          <Card.Title className='text-center'>{product.title}</Card.Title>
+          <Card.Title className='text-center'>{item.title}</Card.Title>
           <Card.Text className='mt-auto text-center'>
-            {product.description}
+            {item.description}
           </Card.Text>
           <Card.Text className='mt-auto text-center'>
-            {product.category}
+            {item.category}
           </Card.Text>
           <Card.Text className='mt-auto text-center'>
-            {product.price}
+            {item.price}
           </Card.Text>
       
         </Card.Body>

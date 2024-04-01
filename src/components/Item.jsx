@@ -3,23 +3,23 @@ import { Card, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 
-export const Item = ({product}) => {
+export const Item = ({item}) => {
 
     return(
         <Card className='d-flex'>
-        <Card.Img variant="top" src={product.pictureUrl} />
+        <Card.Img variant="top" src={item.pictureUrl} />
         <Card.Body className="d-flex flex-column justify-content-end">
-          <Card.Title className='text-center'>{product.title}</Card.Title>
+          <Card.Title className='text-center'>{item.title}</Card.Title>
           <Card.Text className='mt-auto text-center'>
-            {product.description}
+            {item.description}
           </Card.Text>
           <Card.Text className='mt-auto text-center'>
-            {product.category}
+            {item.category}
           </Card.Text>
           <Card.Text className='mt-auto text-center'>
-            {product.price}
+            {item.price}
           </Card.Text>
-          <Link to={`/item/${product.id}`}><Button variant="primary" className="mx-auto d-block">Comprar</Button></Link>
+          <Link to={`/item/${item.id}`}><Button variant="primary" className="mx-auto d-block">Comprar</Button></Link>
         </Card.Body>
       </Card>
     )

@@ -12,7 +12,7 @@ console.log(data);
 
 export const ItemListContainer = () => {
 
-    const [products, setProducts]= useState ([]);
+    const [items, setItems]= useState ([]);
 
     const {id} = useParams();
 
@@ -26,10 +26,10 @@ export const ItemListContainer = () => {
 
           if(id){
             const filteredData = data.filter((d) => d.category === id );
-            setProducts(filteredData);
+            setItems(filteredData);
           }
           else{
-            setProducts(data);
+            setItems(data);
           }
 
          })
@@ -39,7 +39,7 @@ export const ItemListContainer = () => {
     
     <Container className='mt-4'> 
     
-    <ItemList products = {products}/>
+    <ItemList items = {items}/>
 
     </Container>
     );

@@ -1,5 +1,5 @@
 import { Item } from "./Item"
 
-export const ItemList = ({products}) => {
-    return <div className="d-flex">{products.map((product) => <Item key={product.id} product={product}/>)}</div>;
+export const ItemList = ({items}) => {
+    return <div className="d-flex">{items.map((item) => <Item key={item.id} item={item}/>)}</div>;
 };
