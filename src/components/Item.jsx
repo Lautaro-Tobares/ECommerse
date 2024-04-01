@@ -13,6 +13,9 @@ export const Item = ({product}) => {
             {product.description}
           </Card.Text>
           <Card.Text className='mt-auto text-center'>
+            {product.category}
+          </Card.Text>
+          <Card.Text className='mt-auto text-center'>
             {product.price}
           </Card.Text>
           <Button variant="primary">Comprar</Button>
